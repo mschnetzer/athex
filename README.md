@@ -25,8 +25,8 @@ Experimental hexagon map for districts in Austria
 
 ## Caveat
 
-Due to the hexagon size (15km), two districts (Rust and Waidhofen an der Ybbs) are not included in the  map. You can modify the hexagon size in the code file to get your custom hexagon map.
+Due to the hexagon size (15km), two districts (Rust and Waidhofen an der Ybbs) are not included in the  map. You can modify the hexagon size in the R-code file to get your custom hexagon map.
 
 ## Credits
 
-The original idea and code can be found here: https://rpubs.com/dieghernan/beautifulmaps_I
+Find the original idea and code here: https://rpubs.com/dieghernan/beautifulmaps_I and the map data for Austria here: https://github.com/ginseng666/GeoJSON-TopoJSON-Austria/tree/master/2021
