@@ -27,7 +27,7 @@ cent_grid <- st_centroid(grid)
 cent_merge <- st_join(cent_grid, shape, left = FALSE)
 grid_new <- inner_join(grid, st_drop_geometry(cent_merge))
 
-athex <- grid_new %>% st_transform(4326)
+athex <- grid_new %>% st_transform(4326) %>% select(iso, name)
 
-st_write(athex, "data/athex.geojson", append = F)
+st_write(athex, "data/athex.geojson", delete_dsn = TRUE)
 save(athex, file = "data/athex.RData")
